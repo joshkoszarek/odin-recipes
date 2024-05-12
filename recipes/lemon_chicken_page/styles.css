@@ -1,14 +1,39 @@
 
-body { 
-    background-color: rgb(27, 27, 27);
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* { 
+    box-sizing: border-box;
 }
 
 
-img { 
-    width: 500px;
-    height: auto;
-    border-radius: 15px;
+body { 
+    background-color: rgb(8, 8, 8);
+    color: rgb(233, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container { 
+    margin: 0px auto;
     
+    width: 600px;
+    padding: 10px;
+}
+ h1 { 
+    text-align: center;
+ }
+img { 
+    width: auto;
+    height: 600px;
+    border-radius: 15px;
+    display: block;
+    margin: 30px auto;
+}
+
+.description-container, .ingredients-container, .instructions-container { 
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+    background-color: rgb(19, 19, 19);
+    margin-bottom: 10px;
+}
+li { 
+    margin-bottom: 5px;
 }
